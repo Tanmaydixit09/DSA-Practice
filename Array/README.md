@@ -30,3 +30,19 @@ g++ "Two Sum" -o two_sum && two_sum
 **Test:** `{1,1,2}` → `k=2, [1,2]`
 
 **Compile:** `g++ RemoveDuplicates.cpp -o remove_dup & ./remove_dup`
+
+## Day 3: Contains Duplicate (LeetCode #217)
+**Status:** ✅ Solved
+
+**Problem:** Given integer array nums, return true if any value appears at least twice, else false.
+
+**Approach:** Hashset to track seen numbers. O(n) time, O(n) space.
+
+**Solution:** [ContainsDuplicate.cpp](ContainsDuplicate.cpp)
+
+**Test:** `nums = {1,2,3,1}` → `true`
+
+**Compile & Run:**
+```
+g++ ContainsDuplicate.cpp -o contains_dup && contains_dup
+```
